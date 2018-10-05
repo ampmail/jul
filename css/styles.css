@@ -1,0 +1,45 @@
+.logo {
+	width: 100%;
+}
+.phone-number::before {
+  content: "📞";
+  color: #ff0000;
+}
+
+.top-header{
+	height: 150px;
+}
+
+.top-header .search-bar{
+	background-image: url("https://cdn3.iconfinder.com/data/icons/woothemesiconset/32/search_chart.png");
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+
+.top-header .middle-header .row{
+	height: 75px;	
+}
+
+.top-header .middle-header .row div *{
+	line-height: 75px;
+}
+
+.top-header .row.auth{
+	height: 50px;
+}
+
+.top-header .row{
+	100px;
+}
+
+.cart{
+	background-color: #eee;
+	color: green;
+	border-radius: 10px;
+	height: 100px;
+}
+
+.green{
+	height: 600px;
+	background-color: lime;
+}
